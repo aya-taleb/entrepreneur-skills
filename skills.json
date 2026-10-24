@@ -59,7 +59,7 @@
       "name": "validate",
       "status": "ours",
       "home": "entrepreneur-skills",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "shared": true,
       "synced_to": [
         "mimic-skills",

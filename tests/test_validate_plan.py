@@ -66,6 +66,35 @@ class CheckTests(unittest.TestCase):
         self.assertTrue(any("riskiest assumption" in x for x in testplan.check_plan(p)))
 
 
+    def test_range_without_pick_refuses_lock(self):
+        p = copy.deepcopy(PLAN)
+        t = p["tests"][1]
+        t.update({"pass_range": [10, 30], "fail_range": [3, 8], "pass_at": None, "fail_below": None})
+        probs = " ".join(testplan.check_plan(p))
+        self.assertIn("founder picks 'pass_at' from 10 to 30", probs)
+        self.assertIn("founder picks 'fail_below' from 3 to 8", probs)
+        with self.assertRaises(testplan.PlanError):
+            testplan.lock(p, today="2026-10-24")
+
+    def test_pick_inside_range_locks(self):
+        p = copy.deepcopy(PLAN)
+        p["tests"][1].update({"pass_range": [10, 30], "fail_range": [3, 8],
+                              "pass_at": 15, "fail_below": 6})
+        self.assertEqual(testplan.check_plan(p), [])
+        testplan.lock(p, today="2026-10-24")
+        self.assertTrue(p["tests"][1]["fingerprint"])
+
+    def test_pick_outside_range_flagged(self):
+        p = copy.deepcopy(PLAN)
+        p["tests"][1].update({"pass_range": [10, 30], "pass_at": 5, "fail_below": 2})
+        self.assertTrue(any("outside the range" in x for x in testplan.check_plan(p)))
+
+    def test_bad_range_shape(self):
+        p = copy.deepcopy(PLAN)
+        p["tests"][1]["pass_range"] = [30, 10]
+        self.assertTrue(any("[low, high]" in x for x in testplan.check_plan(p)))
+
+
 class LockReadTests(unittest.TestCase):
     def locked(self):
         return testplan.lock(copy.deepcopy(PLAN), today="2026-10-23")

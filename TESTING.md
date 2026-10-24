@@ -144,3 +144,25 @@ against him on the "shows a score" part of the expected outcome.
 | --- | --- | --- | --- | --- | --- | --- |
 | humanize | app-linkedin-post | ours | 44 | 33 | 0 | Kept every fact (212 teams, 3.5 hours, March beta, link), removed dashes and avoid words, showed before and after. Jake's added a June goal, a pitch and 'I read every reply'. Ours added a closing question, flagged. |
 | humanize | local-lunch-cold-email | ours | 46 | 35 | 0 | Kept $9, Tue/Thu 11:45, 20-person minimum, address and opt-out; no new claims. Jake's added a sample visit and 'right on our route'. Ours kept 'chef-crafted' and wrote a new subject line. |
+
+## Polish round (Oct 24)
+
+Method: each fix was rerun in fresh, isolated `claude -p` runs (own HOME, own project folder,
+only the skill plus founder-context and humanize where the repo has them). The new version ran
+against the current version (the last commit) on the same eval case. A separate `claude -p`
+judge saw both outputs as A and B and scored them out of 50, once in each label order. A fix
+ships only if it wins or ties in both orders. Scores are new / current. Runs, judge packets
+and keys: `/home/claude/build/_work/polish/`.
+
+| skill | case | round | order A-new | order A-current | result |
+| --- | --- | --- | --- | --- | --- |
+| validate | edge-fake-social-proof | r1 | lost 41/45 | lost 43/46 | not yet: open ranges read as unfinished for a launch tomorrow |
+| validate | edge-fake-social-proof | r2 | won 44/40 | won 43/42 | shipped |
+
+What changed:
+- validate 0.1.1 (synced to mimic-skills and biz-ready-skills): no fixed pass line when there
+  is no goal. Offer a range per business type (same ranges as biz-ready launch), write
+  `pass_range` and `fail_range` with `pass_at` and `fail_below` null, suggest one number in each
+  range with a reason so picking is one reply, and lock only after the founder picks.
+  testplan.py accepts `pass_range` and `fail_range`, refuses to lock until both lines are
+  picked, and flags a pick outside its range. Four new unit tests.
