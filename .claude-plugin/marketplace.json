@@ -65,6 +65,14 @@
         "repo": "aya-taleb/productivity-skills"
       },
       "description": "Run several small ventures and school at once without dropping things: one task list, one weekly review, people, decisions and hand-offs in plain files."
+    },
+    {
+      "name": "video-boost-skills",
+      "source": {
+        "source": "github",
+        "repo": "aya-taleb/video-boost-skills"
+      },
+      "description": "Find what makes short and long videos work right now for your topic, turn it into a dated checklist with sources, and score your own video against it before you post."
     }
   ]
 }

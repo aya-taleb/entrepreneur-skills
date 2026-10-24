@@ -24,7 +24,7 @@ Claude skills that help a founder find out if an idea is worth their time, befor
 /plugin install entrepreneur-skills@entrepreneur-skills
 ```
 
-This repo is also the hub for all 8 packs. After adding it once, install any of the others
+This repo is also the hub for all 9 packs. After adding it once, install any of the others
 the same way, for example `/plugin install mimic-skills@entrepreneur-skills`. In the Claude
 app, add `aya-taleb/entrepreneur-skills` under Customize, Plugins, Add marketplace.
 
@@ -67,6 +67,7 @@ others.
 | [instagram-boost-skills](https://github.com/aya-taleb/instagram-boost-skills) | Grow on Instagram: plans, carousels, stories, replies. |
 | [multimedia-skills](https://github.com/aya-taleb/multimedia-skills) | Make the video and images: transcripts, promo videos, image and video generation. |
 | [productivity-skills](https://github.com/aya-taleb/productivity-skills) | Run several ventures without dropping things: weekly review, tasks, people, decisions. |
+| [video-boost-skills](https://github.com/aya-taleb/video-boost-skills) | Find what makes videos work now, get a dated checklist, and score your video before you post. |
 
 ## Credits
 
