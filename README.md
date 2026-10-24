@@ -24,6 +24,10 @@ Claude skills that help a founder find out if an idea is worth their time, befor
 /plugin install entrepreneur-skills@entrepreneur-skills
 ```
 
+This repo is also the hub for all 8 packs. After adding it once, install any of the others
+the same way, for example `/plugin install mimic-skills@entrepreneur-skills`. In the Claude
+app, add `aya-taleb/entrepreneur-skills` under Customize, Plugins, Add marketplace.
+
 ## Start here
 
 Run `/founder-context` and tell it about your business in a few lines, or give it your

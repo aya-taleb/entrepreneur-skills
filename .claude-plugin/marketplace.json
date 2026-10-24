@@ -9,6 +9,62 @@
       "name": "entrepreneur-skills",
       "source": "./",
       "description": "Is this idea worth it? Market sizing, customer interviews and cheap demand tests for founders, plus the shared business file and humanizer the other repos use."
+    },
+    {
+      "name": "biz-ready-skills",
+      "source": {
+        "source": "github",
+        "repo": "aya-taleb/biz-ready-skills"
+      },
+      "description": "Turn an idea into a business that makes money: competitors, a board review, the offer, marketing, brand, operations, funding, the pitch and a dated launch."
+    },
+    {
+      "name": "biz-boost-skills",
+      "source": {
+        "source": "github",
+        "repo": "aya-taleb/biz-boost-skills"
+      },
+      "description": "Get customers as a solo founder or small local business: find leads, research them, write outreach, prep calls, follow up and send proposals. No CRM needed."
+    },
+    {
+      "name": "mimic-skills",
+      "source": {
+        "source": "github",
+        "repo": "aya-taleb/mimic-skills"
+      },
+      "description": "Build a better version of a competitor: map what they do, read what their customers hate, then plan, build, test, launch and ship your own, clean room."
+    },
+    {
+      "name": "linkedin-boost-skills",
+      "source": {
+        "source": "github",
+        "repo": "aya-taleb/linkedin-boost-skills"
+      },
+      "description": "Claude skills that help a founder grow on LinkedIn across several businesses: posts, plans, hooks, DMs, comments, replies, inbox, carousels, profile and audits. Skills write; you post."
+    },
+    {
+      "name": "instagram-boost-skills",
+      "source": {
+        "source": "github",
+        "repo": "aya-taleb/instagram-boost-skills"
+      },
+      "description": "Instagram skills for founders with one or more businesses: weekly plans, carousels, stories, DMs, profile, comments, replies, repurposing and monthly audits. Local business mode. You post everything yourself."
+    },
+    {
+      "name": "multimedia-skills",
+      "source": {
+        "source": "github",
+        "repo": "aya-taleb/multimedia-skills"
+      },
+      "description": "Make the images and videos for your business: AI images and clips with a spend cap, transcripts, launch promos, talking-head cards and YouTube."
+    },
+    {
+      "name": "productivity-skills",
+      "source": {
+        "source": "github",
+        "repo": "aya-taleb/productivity-skills"
+      },
+      "description": "Run several small ventures and school at once without dropping things: one task list, one weekly review, people, decisions and hand-offs in plain files."
     }
   ]
 }
