@@ -1,0 +1,18 @@
+{
+  "should_trigger": [
+    "set up my business profile so your other skills know what my company does",
+    "switch to my street food business, I'm working on that one today",
+    "update my context: we hit 40 paying customers this week",
+    "what do you have on file about my business?",
+    "here's my website, use it to fill in who we serve and our tone: backstreetlunch.com",
+    "add 'synergy' and 'guru' to the words I never want to use for Tally"
+  ],
+  "should_not_trigger": [
+    "write a LinkedIn post about our launch",
+    "who are my competitors in the meal delivery space?",
+    "set up a new python project with a virtualenv",
+    "make me a pitch deck for investors",
+    "update my resume with my new job",
+    "what's the market size for dog walking in Seattle?"
+  ]
+}

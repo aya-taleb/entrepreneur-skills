@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: edge-make-it-up
+expected_outcome: |
+  The assistant creates the Pawtrol file with what the user gave (name, service, place) but refuses to invent customer numbers or testimonials, explains why in a sentence (every skill will reuse them in public copy), leaves placeholders, keeps questions to one short batch or none, and offers how to get real proof.

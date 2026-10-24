@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: local-switch-and-update
+expected_outcome: |
+  The assistant lists the businesses on file, switches active to back-street-lunch, updates the proof line from 6 to 7 offices (asking or noting where the number comes from), adds 'foodie' to Words to avoid, shows each change before and after, and does not touch the Tally file.

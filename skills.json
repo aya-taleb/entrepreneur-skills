@@ -1,0 +1,77 @@
+{
+  "repo": "entrepreneur-skills",
+  "owner": "aya-taleb",
+  "skills": [
+    {
+      "name": "founder-context",
+      "status": "ours",
+      "home": "entrepreneur-skills",
+      "version": "0.1.0",
+      "shared": true,
+      "synced_to": [
+        "biz-launch-skills",
+        "biz-boost-skills",
+        "mimic-skills",
+        "linkedin-boost-skills",
+        "instagram-boost-skills",
+        "multimedia-skills",
+        "productivity-skills"
+      ],
+      "source": "written from scratch"
+    },
+    {
+      "name": "humanize",
+      "status": "ours",
+      "home": "entrepreneur-skills",
+      "version": "0.1.0",
+      "shared": true,
+      "synced_to": [
+        "biz-boost-skills",
+        "linkedin-boost-skills",
+        "instagram-boost-skills",
+        "multimedia-skills"
+      ],
+      "source": "written from scratch; idea from Jake Schincariol's li-human, ig-human, x-human (nothing copied)"
+    },
+    {
+      "name": "market-research",
+      "status": "ours",
+      "home": "entrepreneur-skills",
+      "version": "0.1.0",
+      "shared": true,
+      "synced_to": [
+        "mimic-skills"
+      ],
+      "source": "written from scratch"
+    },
+    {
+      "name": "customer-discovery",
+      "status": "ours",
+      "home": "entrepreneur-skills",
+      "version": "0.1.0",
+      "shared": true,
+      "synced_to": [
+        "biz-launch-skills"
+      ],
+      "source": "written from scratch; idea from wondelai's mom-test skill and Rob Fitzpatrick's The Mom Test (nothing copied)"
+    },
+    {
+      "name": "validate",
+      "status": "ours",
+      "home": "entrepreneur-skills",
+      "version": "0.1.0",
+      "shared": true,
+      "synced_to": [
+        "mimic-skills",
+        "biz-launch-skills"
+      ],
+      "source": "written from scratch"
+    },
+    {
+      "name": "competitors",
+      "status": "synced",
+      "home": "biz-launch-skills",
+      "version": "0.1.0"
+    }
+  ]
+}

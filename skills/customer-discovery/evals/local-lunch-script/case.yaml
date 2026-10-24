@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: local-lunch-script
+expected_outcome: |
+  Reads the Back Street Lunch business file, states the one guess to test, writes founder/discovery/script.md with a short opener, 6 to 8 past-behavior questions (no 'would you' questions), a closing ask that costs something small, and an evidence log template; names the segment and 3 to 5 concrete places to find office managers in downtown Seattle without inventing specific named groups as fact; drafts a short, low-pressure ask message the founder sends; makes no claims about results.
+context:
+  scaffold_script: place-files.sh

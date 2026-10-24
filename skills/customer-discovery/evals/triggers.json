@@ -1,0 +1,18 @@
+{
+  "should_trigger": [
+    "what questions should I ask potential customers about my meal prep idea?",
+    "I did 8 user interviews, here are my notes, what did I learn",
+    "who should I talk to first to see if gyms would pay for this",
+    "is this a real problem or am I making it up? I have some call notes",
+    "help me write a mom test style interview script for my B2B tool",
+    "I need some customer interviews for my YC application, can you help"
+  ],
+  "should_not_trigger": [
+    "write a cold email sequence to sell my product to gyms",
+    "prepare me for a sales call with Acme tomorrow",
+    "how big is the market for meal prep in Denver?",
+    "write a job interview question list for hiring a developer",
+    "summarize this podcast interview transcript",
+    "design a landing page test to see if people sign up"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "entrepreneur-skills",
+  "description": "Is this idea worth it? Market sizing, customer interviews and cheap demand tests for founders, plus the shared business file and humanizer the other repos use.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Aya Taleb",
+    "url": "https://github.com/aya-taleb"
+  },
+  "homepage": "https://github.com/aya-taleb/entrepreneur-skills",
+  "repository": "https://github.com/aya-taleb/entrepreneur-skills",
+  "license": "MIT",
+  "keywords": [
+    "claude-skills",
+    "founder",
+    "market-research",
+    "customer-discovery",
+    "validation",
+    "startup"
+  ],
+  "skills": "./skills/"
+}

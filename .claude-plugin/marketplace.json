@@ -1,0 +1,14 @@
+{
+  "name": "entrepreneur-skills",
+  "owner": {
+    "name": "Aya Taleb",
+    "url": "https://github.com/aya-taleb"
+  },
+  "plugins": [
+    {
+      "name": "entrepreneur-skills",
+      "source": "./",
+      "description": "Is this idea worth it? Market sizing, customer interviews and cheap demand tests for founders, plus the shared business file and humanizer the other repos use."
+    }
+  ]
+}
