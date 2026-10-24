@@ -14,4 +14,4 @@ gave us ideas, and we're grateful.
 - **customer-discovery** writes price answers as a CSV that Jake Schincariol's
   `van_westendorp.py` (in his founder-skill repo) can read. We only match the column
   names; we don't include his tool.
-- **competitors** is synced in from biz-launch-skills. See that repo for its credits.
+- **competitors** is synced in from biz-ready-skills. See that repo for its credits.

@@ -2,9 +2,9 @@
 
 ## Unfinished
 
-- **competitors** is listed in `skills.json` as synced from biz-launch-skills, but that
+- **competitors** is listed in `skills.json` as synced from biz-ready-skills, but that
   repo isn't built yet, so the folder isn't here. The README goal table already points
-  to `/competitors`. Run the sync once biz-launch-skills exists:
+  to `/competitors`. Run the sync once biz-ready-skills exists:
   `python3 entrepreneur-skills/scripts/sync_shared.py --root <folder with all repos>`.
   A dry run shows every synced entry across the repos resolving to a home.
 - **Web research was not tested.** Test runs had no web access, so market-research's

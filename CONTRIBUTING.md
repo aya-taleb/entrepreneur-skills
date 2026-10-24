@@ -14,7 +14,7 @@ Fix it in its home repo, and the change gets copied everywhere else.
 | market-research | entrepreneur-skills (this repo) |
 | customer-discovery | entrepreneur-skills (this repo) |
 | validate | entrepreneur-skills (this repo) |
-| competitors | [biz-launch-skills](https://github.com/aya-taleb/biz-launch-skills) |
+| competitors | [biz-ready-skills](https://github.com/aya-taleb/biz-ready-skills) |
 
 If you edit a copy here instead of the home, the pull request check will fail and point
 you to the right repo. That's on purpose, so your fix doesn't get wiped on the next sync.

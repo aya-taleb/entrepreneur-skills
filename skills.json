@@ -9,7 +9,7 @@
       "version": "0.1.0",
       "shared": true,
       "synced_to": [
-        "biz-launch-skills",
+        "biz-ready-skills",
         "biz-boost-skills",
         "mimic-skills",
         "linkedin-boost-skills",
@@ -51,7 +51,7 @@
       "version": "0.1.0",
       "shared": true,
       "synced_to": [
-        "biz-launch-skills"
+        "biz-ready-skills"
       ],
       "source": "written from scratch; idea from wondelai's mom-test skill and Rob Fitzpatrick's The Mom Test (nothing copied)"
     },
@@ -63,14 +63,14 @@
       "shared": true,
       "synced_to": [
         "mimic-skills",
-        "biz-launch-skills"
+        "biz-ready-skills"
       ],
       "source": "written from scratch"
     },
     {
       "name": "competitors",
       "status": "synced",
-      "home": "biz-launch-skills",
+      "home": "biz-ready-skills",
       "version": "0.1.0"
     }
   ]

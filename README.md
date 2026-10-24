@@ -56,7 +56,7 @@ others.
 | repo | what it helps with |
 | --- | --- |
 | [entrepreneur-skills](https://github.com/aya-taleb/entrepreneur-skills) | Is this idea worth it? Market, interviews, demand tests. |
-| [biz-launch-skills](https://github.com/aya-taleb/biz-launch-skills) | Turn the idea into a business that makes money: offer, brand, pricing, launch, funding. |
+| [biz-ready-skills](https://github.com/aya-taleb/biz-ready-skills) | Turn the idea into a business that makes money: offer, brand, pricing, launch, funding. |
 | [biz-boost-skills](https://github.com/aya-taleb/biz-boost-skills) | Get customers: prospect research, leads, cold email drafts, local outreach. |
 | [mimic-skills](https://github.com/aya-taleb/mimic-skills) | Build a better version of a competitor, from research to launch. |
 | [linkedin-boost-skills](https://github.com/aya-taleb/linkedin-boost-skills) | Grow on LinkedIn: posts, plans, comments, DMs you send yourself. |
