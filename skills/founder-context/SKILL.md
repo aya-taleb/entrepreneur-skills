@@ -1,6 +1,6 @@
 ---
 name: founder-context
-description: Sets up and keeps the one business file every other founder skill reads first, with name, pitch, who it serves, stage, goals, topics, tone, words to avoid, real proof and off-limits topics. One file per business, so a founder with several ventures can switch between them. Use it when someone says "set up my business", "here's what my company does", "I'm working on my other business now", "switch to <business>", "update my context", "we just hit 40 customers", "stop using the word X", "what do you know about my business", or when another skill finds no business file. Can draft the file from a website or pasted posts, then asks the founder to confirm. Never invents proof.
+description: Sets up and keeps the one business file every other founder skill reads first, with name, pitch, who it serves, stage, goals, topics, tone, words to avoid, real proof and off-limits topics. One file per business, so a founder with several ventures can switch between them. Use it when someone says "set up my business", "here's what my company does", "I'm working on my other business now", "switch to my cafe business", "update my context", "we just hit 40 customers", "stop using the word X", "what do you know about my business", or when another skill finds no business file. Can draft the file from a website or pasted posts, then asks the founder to confirm. Never invents proof.
 ---
 
 # founder-context
